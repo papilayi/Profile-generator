@@ -1,0 +1,64 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f4f4f4;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+  margin: 20px auto;
+  color: white;
+  background: #333;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #3333;
+  outline: none;
+  cursor: pointer;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+  margin: 10px 0;
+  border-radius: 50%;
+  border: 1px solid #dedede;
+}
+
+.app_user{
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.app__icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.app__icons .fas {
+  margin: 0 30px;
+  transition: all 0.2s ease;
+}
+
+.app__icons .fas:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
