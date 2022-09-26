@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios';
 import Button from './components/Button';
 
+// Managing state and API 
 const App = ()  => {
 
   const [userData, setUserData] = useState([]);
@@ -36,7 +37,7 @@ const App = ()  => {
     'fas fa-lock fa-2x',
   ];
 
-
+// What should come up when a user is generated
   const PhraseGenerator = ({user}) =>{
     const phrases = [
       `Hi my name is ${user.name.first} ${user.name.last}`,
